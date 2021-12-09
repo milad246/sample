@@ -16,7 +16,7 @@ sleep(2)
 user_email = driver.find_element('name', 'login[email_phone]')
 user_email.send_keys("milad.hajizadehh@gmail.com")
 driver.find_element('class name', 'c-login__form-action').click()
-
+sleep(1)
 #View password page
 user_password = driver.find_element('name',"login[password]")
 user_password.send_keys("Milad537383")
