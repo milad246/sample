@@ -7,7 +7,7 @@ from time import sleep
 driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
 driver.maximize_window()
 driver.get("https://digikala.com")
-
+print(driver)
 #View page login
 driver.find_element('class name', 'o-tooltip').click()
 sleep(2)
